@@ -22,16 +22,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 
-# Visual Studo 2015 cache/options directory
-.vs/
-
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-
-# NUNIT
-*.VisualState.xml
-TestResult.xml
 
 # Build Results of an ATL Project
 [Dd]ebugPS/
@@ -66,18 +56,7 @@ dlldata.c
 # Chutzpah Test files
 _Chutzpah*
 
-# Visual C++ cache files
-ipch/
-*.aps
-*.ncb
-*.opensdf
-*.sdf
-*.cachefile
 
-# Visual Studio profiler
-*.psess
-*.vsp
-*.vspx
 
 # TFS 2012 Local Workspace
 $tf/
@@ -134,21 +113,12 @@ publish/
 *.pubxml
 *.publishproj
 
-# NuGet Packages
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/packages/*
-# except build/, which is used as an MSBuild target.
-!**/packages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/packages/repositories.config
+
 
 # Windows Azure Build Output
 csx/
 *.build.csdef
 
-# Windows Store app package directory
-AppPackages/
 
 # Others
 *.[Cc]ache
@@ -186,11 +156,4 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# Node.js Tools for Visual Studio
-.ntvs_analysis.dat
 
-# Visual Studio 6 build log
-*.plg
-
-# Visual Studio 6 workspace options file
-*.opt
